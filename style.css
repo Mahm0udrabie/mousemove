@@ -1,0 +1,31 @@
+body {
+  background-color: #FFF;
+  margin-top: 50px;
+}
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#contentContainer {
+  padding: 0;
+  margin: 0; 
+  width:  280px;
+  height: 500px;
+  border: 2px solid  lightgray;
+  border-radius: 25px;
+  overflow: hidden;
+}
+#mouse {
+  padding: 0;
+  margin: 0; 
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgb(41, 40, 35) ;  
+  transform: translate3d(50px ,50px,0);
+  transition: transform .2s cubic-bezier(0,.64,.52,.24);
+  cursor: pointer;
+}
